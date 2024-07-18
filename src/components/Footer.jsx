@@ -27,13 +27,13 @@ const footerStyle = {
   backgroundColor: '#333',
   color: '#fff',
   textAlign: 'center',
-  padding: '10px 0',
+  padding: '0px 0',
 };
 
 const iconContainerStyle = {
   display: 'flex',
   justifyContent: 'center',
-  marginBottom: '10px',
+  marginBottom: '5px',
 };
 
 const iconStyle = {

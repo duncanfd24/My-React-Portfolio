@@ -52,4 +52,34 @@ body {
     border-radius: 50%;
     margin: 20px 0;
   }
+  .portfolio {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .project-card {
+    margin: 20px;
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+    min-height: 400px;
+  }
+  
+  @media (max-width: 768px) {
+    .project-card {
+      flex: 1 1 calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project-card {
+      flex: 1 1 100%;
+    }
+  }
   

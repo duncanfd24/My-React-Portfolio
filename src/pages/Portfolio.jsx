@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../components/Project';
+import '../styles.css';
 
 const projects = [
   {
@@ -25,6 +26,17 @@ const projects = [
     link: 'https://github.com/rvanetta97/NutriFit',
     imageUrl: 'https://www.chirothinweightloss.com/wp-content/uploads/2018/11/exercise-vs-diet.jpeg'
   }, 
+  {
+    title: 'Taskboard Project',
+    description: 'A simple Kan board for task management.',
+    link: 'https://duncanfd24.github.io/Taskboard-Updates/',
+    imageUrl: 'https://static.vecteezy.com/system/resources/previews/002/890/825/non_2x/scrum-task-board-or-kanban-board-visualizing-the-workflow-with-various-stages-of-work-process-and-colorful-cards-with-tasks-management-teamwork-concept-vector.jpg'
+  },{
+    title: 'Personal Blog',
+    description: 'Make notes and updates for your personal blog.',
+    link: 'https://duncanfd24.github.io/Personal-Blog-Updates/',
+    imageUrl: 'https://th.bing.com/th?id=OIP.F7V7TpEd-tG3KSvM0jNrRgHaEi&w=319&h=195&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2'
+  }, 
 ];
 
 function Portfolio() {
@@ -39,6 +51,7 @@ function Portfolio() {
             description={project.description}
             link={project.link}
             imageUrl={project.imageUrl}
+            className="project-card"
           />
         ))}
       </div>
