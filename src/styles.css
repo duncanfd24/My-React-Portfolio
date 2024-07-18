@@ -1,0 +1,55 @@
+/* .nav-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.nav-list li{
+    margin: 25px;
+} */
+
+body {
+    background-color: rgb(9, 10, 66);
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Additional styling for navigation and footer if needed */
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-top: 30px;
+  }
+  
+  .nav-list li {
+    margin: 25px;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+
+  .about-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-image {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+  }
+  
