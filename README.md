@@ -2,20 +2,9 @@
 
 Welcome to my React Portfolio! This project showcases my work and skills using the React framework. The portfolio is designed to be mobile-first, ensuring a great user experience across all devices.
 
-## Table of Contents
-
-Installation
-Usage
-Features
-Technologies Used
-Getting Started
-Usage
-License
-Contact
-
 ## Installation
 
-Clone the repo:  https://github.com.duncanfd24/react-portfolio.git
+Clone the repo:  https://github.com/duncanfd24/My-React-Portfolio
 Navigate to the project directory: cd react-portfolio
 Install npm packages: npm install react-icons
 
